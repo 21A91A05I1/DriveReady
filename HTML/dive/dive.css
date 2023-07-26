@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: blue;
+    
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left{
+    height: 100%;
+    width: 30%;
+    background-color: aqua;
+}
+.right{
+    height: 100%;
+    width: 70%;
+    background-color: aquamarine;
+}
+.a1{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    background-color: azure;
+}
+.a2{
+    height: 70%;
+    width: 100%;
+    background-color: beige;
+}
+.b1{
+    height: 100%;
+    width: 50%;
+    background-color: bisque;
+}
+.b2{
+    height: 100%;
+    width: 50%;
+    background-color: darkgoldenrod;
+}
+.c1{
+    height: 50%;
+    width: 100%;
+    background-color: blue;
+}
+.c2{
+    height:50% ;
+    width: 100%;
+    display: flex;
+}
+.d1{
+    height: 100%;
+    width: 50%;
+    background-color: blueviolet;
+}
+.d2{
+    height: 100%;
+    width: 50%;
+    background-color: brown;
+}
+.e1{
+    height: 30%;
+    width: 100%;
+    display: flex;
+}
+.e2{
+    height: 70%;
+    width: 100%;
+    background-color: burlywood;
+    display: flex;
+}
+.f1{
+    height: 100%;
+    width: 50%;
+    background-color: cadetblue;
+}
+.f2{
+    height: 100%;
+    width: 50%;
+}
+.g1{
+    height: 100%;
+    width: 30%;
+}
+.g2{
+    height: 100%;
+    width: 70%;
+    background-color: chartreuse;
+}
+.h1{
+    height: 50%;
+    width: 100%;
+}
+.h2{
+    height: 50%;
+    width: 100%;
+    background-color: chocolate;
+    display: flex;
+}
+.i1{
+    height: 100%;
+    width:50% ;
+}
+.i2{
+    height: 100%;
+    width: 50%;
+    background-color: coral;
+}

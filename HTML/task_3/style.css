@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.left{
+    height: 100%;
+    width: 40%;
+    /* background-color:brown ; */
+    display: flex;
+}
+.left1{
+    height: 100%;
+    width: 40%;
+    /* background-color: bisque; */
+}
+.le1{
+    height: 25%;
+    width: 100%;
+    background-color: yellow;
+}
+.le2{
+    height: 25%;
+    width: 100%;
+    background-color: white;
+}
+.le3{
+    height: 25%;
+    width: 100%;
+    background-color: brown;
+}
+.le4{
+    height: 25%;
+    width: 100%;
+    background-color: green;
+}
+.left2{
+    height: 100%;
+    width: 60%;
+    /* background-color: aquamarine; */
+    display: flex;
+}
+.let1{
+    height: 100%;
+    width: 50%;
+    background-color: orange;
+}
+.let2{
+    height: 100%;
+    width: 50%;
+    background-color: brown;
+}
+.right{
+    height: 100%;
+    width: 60%;
+    /* background-color: aqua; */
+}
+.top{
+    height: 20%;
+    width: 100%;
+    background-color: blue;
+}
+.down{
+    height: 80%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+}
+.right1{
+    height: 100%;
+    width: 40%;
+    background-color: chocolate;
+}
+.right2{
+    height: 100%;
+    width: 60%;
+}
+.righ1{
+    height: 20%;
+    width: 100%;
+    background-color: purple;
+}
+.righ2{
+    height: 80%;
+    width: 100%;
+    display: flex;
+}
+.rig1{
+    height: 100%;
+    width: 50%;
+    background-color: red;
+}
+.rig2{
+    height: 100%;
+    width: 50%;
+}
+.ri1{
+    height: 50%;
+    width: 100%;
+    background-color: pink;
+}
+.ri2{
+    height: 50%;
+    width: 100%;
+    background-color: yellow;
+}

@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+}
+.top{
+    height: 15%;
+    width: 100%;
+    background-color:lightsalmon;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left_side{
+    height: 100%;
+    width: 50%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 10%; */
+}
+.logo{
+    width: 75px;
+
+}
+.right_side{
+    height: 100%;
+    width: 50%;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    word-spacing: 100px;
+    text-align: center;
+    /* background-color: aqua; */
+/* }
+
+.right_side  ul li{
+    list-style: none;
+    /* display: inline-block; */
+    /* margin: 0 25px;
+    padding:10px ; */
+    
+    /* margin-right: 40px; */
+    /* position: relative; */
+} 
+.right_side  a{
+    color: blue;
+    text-decoration: none;
+    font-size: 20px;
+}
+.middle{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.middle form{
+    /* background-color: black; */
+    height: 90%;
+    width: 50%;
+}
+.middle form .input{
+    display:flex;
+    flex-direction: column;
+    margin-bottom:8px;
+    gap:5px;
+    
+}
+.middle form .input input{
+    padding: 8px;
+    width: 50%;
+    /* outline: none; */
+    border-radius: 8px;
+    border: 2px solid black;
+    /* color: #6C63FF; */
+    font-weight: bold;
+}
+.middle form .input label{
+    font-weight:bold;
+    font-size: 15px;
+}
+.middle form .gen{
+    font-size: 15px;
+    font-weight: bold;
+}
+.middle form .input button{
+    width: 15%;
+    /* outline:none; */
+    /* border:none; */
+    border-radius: 30px;
+    background:lightslategrey;
+    color: white;
+    padding: 5px 0px;
+    font-size: 15px;
+    font-weight:bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    /* transition: 0.5s; */
+}
+.down{
+    height: 15%;
+    width: 100%;
+    background-color: lightsalmon;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+}
+.down p{
+    font-size: 15px;
+}
+@media only screen and (max-width:600px){
+    [class*="col-1"]
+    {
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    [class*="col"]
+    {
+        width: 100%;
+        /* display: flex;
+        flex-direction: column; */
+    }
+    .top .right_side{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}

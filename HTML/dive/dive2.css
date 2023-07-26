@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.left{
+    height: 100%;
+    width: 20%;
+    background-color: bisque;
+}
+.middle{
+    height: 100%;
+    width: 30%;
+}
+.right{
+    height: 100%;
+    width: 50%;
+    /* background-color: aqua; */
+}
+.a1{
+    height: 50%;
+    width: 100%;
+    background-color: antiquewhite;
+}
+.a2{
+    height: 50%;
+    width: 100%;
+}
+.a11{
+    height: 100%;
+    width: 50%;
+    background-color: aqua;
+}
+.a111{
+    height: 50%;
+    width: 100%;
+    background-color: aquamarine;
+}
+.b1{
+    height: 50%;
+    width: 100%;
+    background-color: blue;
+}
+.b2{
+    height: 50%;
+    width: 100%;
+    display: flex;
+}
+.b11{
+    height: 50%;
+    width: 100%;
+    background-color: brown;
+}
+.b21{
+    height: 100%;
+    width: 35%;
+    background-color: blueviolet;
+}
+.b22{
+    height: 100%;
+    width: 30%;
+    background-color: aquamarine;
+}
+.b23{
+    height: 100%;
+    width: 35%;
+    background-color: aqua;
+}
+.c1{
+    height: 50%;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+}
+.c2{
+    height: 50%;
+    width: 100%;
+    background-color: aliceblue;
+    /* display: f; */
+}
+.c11{
+    height: 100%;
+    width: 50%;
+    background-color: aquamarine;
+}
+.c12{
+    height: 100%;
+    width: 50%;
+    background-color: antiquewhite;
+    display: flex;
+}
+.c121{
+    height: 100%;
+    width: 50%;
+}
+.c122{
+    height: 100%;
+    width: 50%;
+    background-color: blue;
+}
+.c1211{
+    height: 50%;
+    width: 100%;
+}
+.c1212{
+    height: 50%;
+    width: 100%;
+    background-color: brown;
+}
+.c1221{
+    height: 50%;
+    width: 100%;
+}
+.c1222{
+    height: 50%;
+    width: 100%;
+    background-color: blueviolet;
+}
+.d1{
+    height: 50%;
+    width: 100%;
+    background-color: chartreuse;
+    display: flex;
+}
+.d2{
+    height: 50%;
+    width: 100%;
+    background-color: chocolate;
+    display: flex;
+}
+.d11{
+    height: 100%;
+    width: 50%;
+}
+.d12{
+    height: 100%;
+    width: 50%;
+    background-color: aqua;
+}
+.d121{
+    height: 50%;
+    width: 100%;
+    background-color: blue;
+}
+.d21{
+    height: 100%;
+    width: 25%;
+    background-color: crimson;
+}
+.d22{
+    height: 100%;
+    width: 25%;
+    background-color: darkcyan;
+}
+.d23{
+    height: 100%;
+    width: 25%;
+    background-color: deeppink;
+}
