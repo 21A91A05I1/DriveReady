@@ -1,0 +1,91 @@
+
+body{
+    height: 100vh;
+    width: 100vw;
+    padding: 50px;
+    display: flex;
+}
+/* div{
+    height: 50%;
+    width: 50%;
+    outline:10px dotted red;
+    background-color: pink;
+    text-align: center;
+} */
+.left{
+    height: 100%;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    /* line-height: 100px; */
+    
+}
+.dotted{
+    height: 30px;
+    width: 100px;
+
+    border: 5px dotted black;
+}
+.solid{
+    height: 30px;
+    width: 100px;
+    margin-top: 10px;
+    border: 5px solid;
+}
+.grove{
+    height: 30px;
+    width: 100px;
+    margin-top: 10px;
+    border: 5px groove;
+}
+.inset{
+    height: 30px;
+    width: 100px;
+    margin-top: 10px;
+    border: 5px inset;
+}
+.none{
+    height: 30px;
+    width: 100px;
+    margin-top: 10px;
+    border: 5px none;
+}
+.right{
+    height: 100%;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    /* line-height: 50px; */
+}
+.dashed{
+    height: 30px;
+    width: 100px;
+    margin-top: 10px;
+    border: 5px dashed;
+}
+.double{
+    height: 30px;
+    width: 100px;
+    margin-top: 10px;
+    border: 5px double;
+}
+.ridge{
+    height: 30px;
+    width: 100px;
+    margin-top: 10px;
+    border: 5px ridge;
+}
+.outset{
+    height: 30px;
+    width: 100px;
+    margin-top: 10px;
+    border: 5px outset;
+}
+.hidden{
+    height: 30px;
+    width: 100px;
+    margin-top: 10px;
+    border: 5px hidden;
+}

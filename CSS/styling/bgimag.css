@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    line-height: 40px;
+    /* background-color: aqua; */
+    /* background-image: url(logo.ico);
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+/* div{
+    height: 80%;
+    width: 40%;
+    background-image: url(./logo.ico);
+    border: 6px solid palevioletred;
+    background-repeat: no-repeat;
+    background-size: contain;
+} */
+span{
+    border-style: double;
+    border-width: 5px;
+    border-color: blueviolet;
+    border-top-style: dotted;
+    border-right-style: dashed;
+    border-bottom-style: inset;
+    border-left-style: ridge;
+    border-radius: 20px;
+}
+p{
+    border-style: double;
+    border-width: 5px;
+    border-color: blueviolet;
+    border-top-style: dotted;
+    border-right-style: dashed;
+    border-bottom-style: inset;
+    border-left-style: ridge;
+    
+}

@@ -1,0 +1,14 @@
+.main{
+    /* height: 10%; */
+    width: 25%;
+    margin: 50px;
+    color: white;
+    background: linear-gradient(#FF7518,#EC5800);
+    border:20px solid #ab4003;
+    border-image: url(./task4img.jpg);
+    border-image-slice: 50;
+}
+p{
+    /* background-color: black; */
+    padding: 25px;
+}
